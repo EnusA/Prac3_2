@@ -1,7 +1,7 @@
 package com.EnusA.Prac3_2;
 
 
-public abstract class Shapes implements CalcArea {
+public class Shapes implements CalcArea {
     //GM
     protected String name;
     protected String colour;

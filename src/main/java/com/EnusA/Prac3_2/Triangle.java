@@ -3,7 +3,7 @@ package com.EnusA.Prac3_2;
 /**
  * Created by enusa on 2017/03/25.
  */
-public class Triangle extends Shapes {
+public class Triangle implements CalcArea {
     //AE
     private String name;
     private String colour;private double area;
@@ -12,7 +12,6 @@ public class Triangle extends Shapes {
         colour = clr;
     }
 
-    @Override
     public double area(double breadth, double height) {
         return area = (height * (0.5*breadth));
     }

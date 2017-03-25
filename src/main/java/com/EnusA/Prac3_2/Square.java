@@ -1,7 +1,7 @@
 package com.EnusA.Prac3_2;
 
 
-public class Square extends Shapes {
+public class Square implements CalcArea{
     //AE
     private String name;
     private String colour;
@@ -11,7 +11,6 @@ public class Square extends Shapes {
         colour = clr;
     }
 
-    @Override
     public double area(double length, double breadth) {
         return area =(length *breadth);
     }
